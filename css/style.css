@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #363f4f;
+}
+
+.main-container {
+    margin: 1.8rem auto;
+    border-radius: 2%;
+    width: 28rem;
+    height: auto;
+    background-color: #fff;
+}
+
+.calculator__container {
+    width: 25rem;
+    margin: 0 auto;
+    padding-bottom: 1rem;
+}
+
+.calculator__title,
+.results__title {
+    text-align: center;
+    padding-top: 1.2rem;
+}
+
+.calculator__input,
+.results__output {
+    display: flex;    
+    justify-content: center;
+    width: 100%;
+    margin: 0.6rem 0;
+    border-radius: 2%;
+    color: #636161;
+}
+
+.calculator__input--loan-amount,
+.calculator__input--interest,
+.calculator__input--years-to-repay {
+    width: 100%;
+    padding: 0.3rem;
+    border: 0.1rem solid #bebebe;
+}
+
+.results__output--monthly-payment,
+.results__output--total-payment,
+.results__output--total-interest {
+    background-color: #e7ebe9;
+    width: 65%;
+    padding: 0.3rem;
+    border: 0.1rem solid #bebebe;
+}
+
+.calculator__input--sign {
+    width: 2rem;
+    border: 0.1rem solid #bebebe;
+}
+
+.results__output--title {
+    width: 35%;
+}
+
+.calculator__input--sign,
+.results__output--title {
+    background-color: #e7ebe9;
+    text-align: center;
+    border-right: none;
+    padding: 0.3rem;
+}
+
+.calculator__btn {
+    background-color: #2d323b;
+    color: #ebe7e7;
+    padding: 0.4rem;
+    font-size: 0.8rem;
+    width: 100%;
+}
