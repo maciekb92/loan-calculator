@@ -42,7 +42,7 @@ body {
 .calculator__input--interest,
 .calculator__input--years-to-repay {
     width: 100%;
-    padding: 0.3rem;
+    padding: 0.3rem 0.6rem;
     border: 0.1rem solid #bebebe;
 }
 
@@ -51,7 +51,7 @@ body {
 .results__output--total-interest {
     background-color: #e7ebe9;
     width: 65%;
-    padding: 0.3rem;
+    padding: 0.3rem 0.6rem;
     border: 0.1rem solid #bebebe;
 }
 
