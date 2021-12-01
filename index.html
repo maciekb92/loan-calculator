@@ -14,29 +14,41 @@
         <div class="calculator__container">
             <h1 class="calculator__title">Loan Calculator</h1>
             <div class="calculator__input-container">
-                <p class="calculator__input--sign">$</p>
-                <input type="number" placeholder="Loan Amount" class="calculator__input" id="calculator__input--loan-amount" />
+                <div class="calculator__input">
+                    <p class="calculator__input--sign">$</p>
+                    <input type="number" placeholder="Loan Amount" id="calculator__input--loan-amount" />
+                </div>
             </div>
             <div class="calculator__input-container">
-                <p class="calculator__input--sign">%</p>
-                <input type="number" placeholder="Annual Interest" class="calculator__input" id="calculator__input--interest" />
+                <div class="calculator__input">
+                    <p class="calculator__input--sign">%</p>
+                    <input type="number" placeholder="Annual Interest" id="calculator__input--interest" />
+                </div>
             </div>
             <div class="calculator__input-container">
-                <input type="number" placeholder="Repayment Years" class="calculator__input" id="calculator__input--years-to-repay" />
+                <div class="calculator__input">
+                    <input type="number" placeholder="Repayment Years" id="calculator__input--years-to-repay" />
+                </div>
             </div>
             <button class="calculator__btn">Calculate</button>
             <h2 class="results__title">Results</h2>
             <div class="results__output-container">
-                <p class="results__output--title">Monthly Payment</p>
-                <input type="number" class="results__output" id="results__output--monthly-payment" disabled/>
+                <div class="results__output">
+                    <p class="results__output--title">Monthly Payment</p>
+                    <input type="number" class="results__output" id="results__output--monthly-payment" disabled/>
+                </div>
             </div>
             <div class="results__output-container">
-                <p class="results__output--title">Total Payment</p>
-                <input type="number" class="results__output" id="results__output--total-payment" disabled/>
+                <div class="results__output">
+                    <p class="results__output--title">Total Payment</p>
+                    <input type="number" class="results__output" id="results__output--total-payment" disabled/>
+                </div>
             </div>
             <div class="results__output-container">
-                <p class="results__output--title">Total Interest</p>
-                <input type="number" class="results__output" id="results__output--total-interest" disabled/>
+                <div class="results__output">
+                    <p class="results__output--title">Total Interest</p>
+                    <input type="number" class="results__output" id="results__output--total-interest" disabled/>
+                </div>
             </div>  
         </div>
     </div>
